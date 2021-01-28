@@ -3,4 +3,4 @@ type Todo = {
     complete: boolean;
 };
 
-type ToggleTodo = (selectedTodo)
+type ToggleTodo = (selectedTodo: Todo) => void;
